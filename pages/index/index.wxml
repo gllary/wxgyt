@@ -1,0 +1,63 @@
+  <!--index.wxml-->
+
+<view class="top" >
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}"  >
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="button_list">
+  <view class="AQ" >
+    <image src="../img/qa.png" bindtap="passQuery" data-index="1" ></image>
+  </view>
+  <view class="AQ">
+    <image src="../img/shi.png" bindtap="passQuery" data-index="2"></image>
+  </view>
+  <view class="AQ">
+    <image src="../img/ge.png" bindtap="passQuery" data-index="3"></image>
+  </view>
+</view>
+<view class="button_list">
+  <view class="AQ">
+    小听问答
+  </view>
+  <view class="AQ">
+    <label>诗情乐意</label>
+  </view>
+  <view class="AQ">
+    <label>藏乐阁</label>
+  </view>
+</view>
+<view style="margin-left:3px;font-size:35rpx">每日推荐</view>
+<view class="music_list">
+  <view class="ml" >
+    <image src="http://47.100.192.102/f1.png" bindtap="tomusic" data-index="1" ></image>
+  </view>
+  <view class="ml">
+    <image src="http://47.100.192.102/f2.png" bindtap="tomusic" data-index="2"></image>
+  </view>
+  <view class="ml">
+    <image src="http://47.100.192.102/f3.png" bindtap="tomusic" data-index="3"></image>
+  </view>
+</view>
+<view class="music_list">
+  <view class="ml" >
+    <image src="http://47.100.192.102/f4.png" bindtap="tomusic" data-index="4" ></image>
+  </view>
+  <view class="ml">
+    <image src="http://47.100.192.102/f5.png" bindtap="tomusic" data-index="5"></image>
+  </view>
+  <view class="ml">
+    <image src="http://47.100.192.102/f6.png" bindtap="tomusic" data-index="6"></image>
+  </view>
+</view>
+
+<!--index.wxml-->
+
+
+
+
