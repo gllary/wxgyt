@@ -1,0 +1,10 @@
+<!--pages/poem/poem.wxml-->
+<view class='bg' style="background-image: url({{bgpurl}});">
+  <view class="cangtoushi" >
+    <view id="first" style="display: inline-block;width: 50rpx;height: 40rpx; color: white;margin-left:3px;font-size:30rpx">
+      {{poem}}
+    </view>
+
+  </view>
+</view>
+
