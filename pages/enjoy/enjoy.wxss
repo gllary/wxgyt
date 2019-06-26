@@ -1,0 +1,73 @@
+/* pages/enjoy/enjoy.wxss */
+@import "../lib/weui.wxss";
+
+.tc{
+  width: 90%;
+  margin: 8rpx auto
+}
+
+.weui-cells{
+  
+  text-align: left;
+}
+.weui-label{
+  width: 5em;
+}
+
+.page-body-button {
+  margin-bottom: 30rpx;
+  background-color: #d81e06;
+  color: white
+  
+}
+.bg {
+  width: 100%;
+  height: 400rpx;
+  background-size:100% 100%;
+  z-index: -1;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400rpx;
+    background: rgba(101, 101, 101, 0.6);
+    color: #ffffff;
+    opacity: 0;
+}
+
+.th3 {
+    text-align: center
+}
+.tp{
+	color: white;
+  padding-left: 5rpx;
+  font-size: 32rpx;
+}
+
+.bg .mask:hover {
+    opacity: 1;           
+}
+.huan{
+  margin-top: 8rpx;
+  width: 150rpx;
+  height: 50rpx;
+  background-size:100% 100%;
+  z-index: -1;
+  margin-left: 40%
+}
+.shi{
+  width: 100%;
+  height: 400rpx; 
+  background-size:100% 100%;
+  z-index: -1;
+  
+}
+.poem{
+  margin-top: 8rpx;
+  padding-top: 20%;
+  margin-left: 14%;
+  font-size: 35rpx;
+  width: 75%;
+}
