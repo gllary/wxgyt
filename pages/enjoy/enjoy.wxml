@@ -1,0 +1,31 @@
+<!--pages/enjoy/enjoy.wxml-->
+<view class='bg' style="background-image: url({{bgpurl}});">
+  <view class="mask">
+    <view class="th3">{{insname}}</view>
+		<view class="tp">  {{insdesc}}</view>
+  </view>
+</view>
+<view class="huan" style="background-image: url('../img/huan.png');"  bindtap="huan">
+  
+</view>
+<view class="shi" style="background-image: url('../img/shi.jpg');">
+  <view class="poem">{{shi}}</view>
+</view>
+
+<view class="page-section tc" >
+    <video id="myVideo" src="{{videourl}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls style="width:100%;padding-top:12rpx"></video>
+
+    <view class="weui-cells">
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">弹幕内容</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input bindblur="bindInputBlur" class="weui-input" type="text" placeholder="在此处输入弹幕内容" />
+        </view>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button bindtap="bindSendDanmu" class="page-body-button"  formType="submit">发送弹幕</button>
+    </view>
+  </view>
