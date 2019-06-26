@@ -1,0 +1,15 @@
+<!--pages/listen/listen.wxml-->
+<!--页面根标签-->
+<view class='bg' style="background-image: url('http://47.100.192.102/q6.gif');">
+
+	<!--pics文件夹下的background.jpg文件-->
+
+	<!--页面其它部分-->
+  <view id="top">
+  	 <image src="{{imgurl}}" style="width:330rpx;height:330rpx;margin-top:45%" ></image>
+  </view>
+  
+
+</view>
+
+
