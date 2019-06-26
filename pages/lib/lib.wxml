@@ -1,0 +1,8 @@
+<view class='content'>
+<block wx:for="{{artlist}}"  >
+  <view class='artImg'>
+    <image src='{{item.imag}}'></image>
+  </view>
+  <view class='art' bindtap="passQuery" data-index="{{item.id}}">{{item.art}}</view>
+</block>
+</view>
